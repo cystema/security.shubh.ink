@@ -4,15 +4,17 @@ export default function Page() {
   return (
     <section>
       <div>
-        <h3 className="text-2xl font-semibold tracking-tighter">
-          Hi, I'm Shubham.
+        <h3 className="mb-8 text-2xl font-semibold tracking-tighter">
+          👋 Hi, I'm Shubham.
         </h3>
-        <h3 className="mb-4 text-2xl font-semibold tracking-tighter">
+        {/* <h3 className="mb-4 text-2xl font-semibold tracking-tighter">
           I'm a Software Developer focused on Software and Systems Security.
-        </h3>
-        {/* <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-          I design visual, voice, and conversational experiences for chatbots, virtual assistants, and conversational agents.
-        </h1> */}
+        </h3> */}
+        <h1 className="mb-8 text-xl  tracking-tighter">
+          I'm a security-focused Software Engineer, specializing in vulnerability assessment, secure coding, and the application of advanced security principles.
+        </h1>
+        <h1 className="mb-8 text-xl  tracking-tighter">I have extensive hands-on experience with tools like Veracode, OWASP ZAP, Burp Suite, and AFL for fuzzing, static, and dynamic analysis, and fixing common OWASP vulnerabilities (e.g., SQLi, XSS, CSRF) and enhancing application security. </h1>
+        <h1 className="mb-8 text-xl tracking-tighter"> I am also an active participant and co-founder of the UtahSec Cybersecurity Team, leading CTF competitions and improving team ranking.</h1>
       </div>
 
 
