@@ -6,6 +6,31 @@ export const metadata = {
 }
 
 export default function Page() {
+    const security_projects = [
+        {
+            name: "Discouraging Spam Attacks with Email Payment Stamps",
+            description:
+                "This project aims to enhance email security by implementing a HashCash-based system to discourage spam and DDoS attacks.",
+            image: "/project_section/movielangai.png",
+            github: "https://github.com/cystema/movielang-ai",
+            link: "https://movielang.shubh.ink/"
+        },
+        {
+            name: "Finding CVEs through Firmware Emulation",
+            description:
+                "This project focuses on identifying Common Vulnerabilities and Exposures (CVEs) in firmware images using emulation techniques.",
+            image: "/project_section/movielangai.png",
+            // github: "https://github.com/cystema/movielang-ai",
+            link: "https://movielang.shubh.ink/"
+        },
+        {
+            name: "Mini-Blockchain",
+            description:
+                "An implementation of a Blockchain, using Python 3 and Flask.",
+            image: "/project_section/blockchain.png",
+            github: "https://github.com/cystema/mini-blockchain",
+        },
+    ]
     const conversational_ai_projects = [
         {
             name: "MovieLang AI: Movies with Langflow",
