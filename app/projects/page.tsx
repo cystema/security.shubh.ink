@@ -8,28 +8,29 @@ export const metadata = {
 export default function Page() {
     const security_projects = [
         {
-            name: "Discouraging Spam Attacks with Email Payment Stamps",
-            description:
-                "This project aims to enhance email security by implementing a HashCash-based system to discourage spam and DDoS attacks.",
-            image: "/project_section/movielangai.png",
-            github: "https://github.com/cystema/movielang-ai",
-            link: "https://movielang.shubh.ink/"
-        },
-        {
-            name: "Finding CVEs through Firmware Emulation",
-            description:
-                "This project focuses on identifying Common Vulnerabilities and Exposures (CVEs) in firmware images using emulation techniques.",
-            image: "/project_section/movielangai.png",
-            // github: "https://github.com/cystema/movielang-ai",
-            link: "https://movielang.shubh.ink/"
-        },
-        {
             name: "Mini-Blockchain",
             description:
                 "An implementation of a Blockchain, using Python 3 and Flask.",
             image: "/project_section/blockchain.png",
             github: "https://github.com/cystema/mini-blockchain",
         },
+        {
+            name: "Discouraging Spam Attacks with Email Payment Stamps",
+            description:
+                "Enhance email security by implementing a HashCash-based system to discourage spam and DDoS attacks.",
+            image: "/projects/spamattack.png",
+            github: "https://github.com/cystema/spam-attack-prevention-hashcash",
+            link: "https://movielang.shubh.ink/"
+        },
+        {
+            name: "Finding CVEs through Firmware Emulation",
+            description:
+                "Identifying Common Vulnerabilities and Exposures (CVEs) in firmware images using emulation.",
+            image: "/projects/cvefirmemu.png",
+            // github: "https://github.com/cystema/movielang-ai",
+            link: "https://movielang.shubh.ink/"
+        },
+
     ]
     const conversational_ai_projects = [
         {
@@ -84,6 +85,27 @@ export default function Page() {
         <section>
             <h1 className="font-semibold text-2xl mb-8 tracking-tighter">projects i've worked on</h1>
             <div className="space-y-8">
+                {security_projects.map((project, index) => (
+                    <div key={index} className="flex flex-col md:flex-row bg-white rounded-lg shadow-md overflow-hidden">
+                        <div className="w-full md:w-2/3">
+                            <img src={project.image} alt={project.name} className="w-full h-full object-cover" />
+                        </div>
+                        <div className="p-6 flex flex-col justify-between w-full md:w-1/3 flex-grow">
+                            {/* <h4 className="text-gray-600 font-bold text-2xl mb-2">{project.name}</h4> */}
+                            <p className="text-gray-600 mb-4">{project.description}</p>
+                            <div className="flex items-center space-x-4">
+
+                                {project.github && (
+                                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub</a>
+                                )}
+                                {project.link && (
+                                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">PDF</a>
+                                )}
+                            </div>
+                        </div>
+                    </div>
+                ))}
+
                 {conversational_ai_projects.map((project, index) => (
                     <div key={index} className="flex flex-col md:flex-row bg-white rounded-lg shadow-md overflow-hidden">
                         <div className="w-full md:w-2/3">

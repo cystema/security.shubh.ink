@@ -11,7 +11,7 @@ export default function Page() {
             <ul className="list-decimal list-inside space-y-6">
                 {/* Write-up 1: CTF Challenges */}
                 <li>
-                    <p className="inline font-bold text-xl mb-2">CTF Challenges Write-up</p>
+                    <p className="inline font-bold text-xl mb-2">DAMCTF'23 Write-up</p>
                     <p className=" text-gray-200 mb-2">
                         This write-up covers solutions for various CTF challenges, including steganography, recursive zip files, RSA attacks, and OSINT. It provides an in-depth analysis of each challenge and the techniques used to solve them.
                     </p>
@@ -36,7 +36,7 @@ export default function Page() {
                                 This lab demonstrates the exploitation of buffer overflow vulnerabilities and the crafting of shellcode for code injection.
                             </p>
                             <a
-                                href="/softwaresecurityclass/lab1.docx"
+                                href="/softwaresecurityclass/lab1.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-blue-500 hover:underline mr-4"
@@ -44,7 +44,7 @@ export default function Page() {
                                 Problem Statement
                             </a>
                             <a
-                                href="/softwaresecurityclass/SoftwareSecurityLab3Report.pdf"
+                                href="/softwaresecurityclass/SoftwareSecurityLab1Report.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-blue-500 hover:underline"
@@ -59,7 +59,7 @@ export default function Page() {
                                 This lab explores static analysis techniques using the Soot framework to evaluate API usage in Java classes for identifying security flaws.
                             </p>
                             <a
-                                href="/softwaresecurityclass/lab2.docx"
+                                href="/softwaresecurityclass/lab2.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-blue-500 hover:underline mr-4"
@@ -67,7 +67,7 @@ export default function Page() {
                                 Problem Statement
                             </a>
                             <a
-                                href="/softwaresecurityclass/SoftwareSecurityLab3Report.pdf"
+                                href="/softwaresecurityclass/SoftwareSecurityLab2Report.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-blue-500 hover:underline"
@@ -82,7 +82,7 @@ export default function Page() {
                                 This lab focuses on using symbolic execution with angr to analyze firmware for potential backdoors, demonstrating how to detect and understand hidden malicious behavior.
                             </p>
                             <a
-                                href="/softwaresecurityclass/SoftwareSecurityLab3Report.pdf"
+                                href="/softwaresecurityclass/lab3.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-blue-500 hover:underline mr-4"
@@ -90,7 +90,7 @@ export default function Page() {
                                 Problem Statement
                             </a>
                             <a
-                                href="/labs/symbolic-execution-writeup.pdf"
+                                href="/softwaresecurityclass/SoftwareSecurityLab3Report.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-blue-500 hover:underline"
