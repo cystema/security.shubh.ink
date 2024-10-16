@@ -20,15 +20,14 @@ export default function Page() {
                 "Enhance email security by implementing a HashCash-based system to discourage spam and DDoS attacks.",
             image: "/projects/spamattack.png",
             github: "https://github.com/cystema/spam-attack-prevention-hashcash",
-            link: "https://movielang.shubh.ink/"
+            link: "/projects/spamattack.pdf"
         },
         {
             name: "Finding CVEs through Firmware Emulation",
             description:
                 "Identifying Common Vulnerabilities and Exposures (CVEs) in firmware images using emulation.",
             image: "/projects/cvefirmemu.png",
-            // github: "https://github.com/cystema/movielang-ai",
-            link: "https://movielang.shubh.ink/"
+            link: "/projects/cvefirmemu.pdf"
         },
 
     ]
